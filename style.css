@@ -1,0 +1,90 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #00aaff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header .logo a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1920x800.png?text=Sky+Image'); /* Replace with actual image */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+/* Introduction Section */
+.intro {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.intro h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #00aaff;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
